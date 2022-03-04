@@ -9,7 +9,7 @@ header{
         ;
 }
 /*---------------
-    Banner Part
+    Banner style
 ----------------*/
 .banner{
     display:flex;
@@ -34,7 +34,7 @@ header{
     margin-left: 100px;
 }
 /*-------------------
-    player part
+    player style
 ---------------------*/
 .players{
     display:grid;
@@ -53,4 +53,26 @@ header{
 }
 .player-info p{
     color:#6C6C6C;
+}
+/*----------------
+    Footer style
+-----------------*/
+footer{
+    width:480px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:150px auto 30px auto;
+}
+footer img{
+    width:100%;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon a{
+    background-color: rgba(211, 211, 211, 0.5);
+    padding:10px;
+    border-radius: 50%;
 }
